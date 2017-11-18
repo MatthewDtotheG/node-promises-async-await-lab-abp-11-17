@@ -29,11 +29,7 @@ class Question {
   // FIXME: Implement Promise
   static Find(id) {
     console.log(`Waiting for Question ${id} to load...`);
-<<<<<<< HEAD
 
-=======
-    
->>>>>>> edcb783af119c7bf63d5621f17c9959e9561dbe5
     return new Promise(function(resolve) {
       setTimeout(function() {
         const question = Question._All[id - 1]; // Do Not Edit
